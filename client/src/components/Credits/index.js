@@ -31,6 +31,13 @@ const Credits = () => {
             <TableData><a href="https://www.linkedin.com/in/felix-nilo">linkedin.com/in/felix-nilo</a></TableData>
             <TableData><a href="https://github.com/felixNilo">@felixNilo</a></TableData>
           </tr>
+          <tr>
+            <TableData>2</TableData>
+            <TableData>Atanu Jana</TableData>
+            <TableData> -</TableData>
+            <TableData><a href="https://www.linkedin.com/in/atanu20">linkedin.com/in/atanu20</a></TableData>
+            <TableData><a href="https://github.com/atanu20">@atanu20</a></TableData>
+          </tr>
         </tbody>
       </CreditsTable>
     </ContainerCredits>
