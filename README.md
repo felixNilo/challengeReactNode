@@ -52,14 +52,17 @@ Para correr la aplicacion en su maquina local, debe tener instalado mysql. Adema
 Para la configuracion de la base de datos, debe ingresar al archivo `database.js` y configurar el host, usuario, contrasena y nombre de la base de datos a accesar.
 
 Luego, debe ingresar a server y ejecutar `npm install` y luego ejecutar el archivo servidor mediante `node index.js`
-```cd server
+```
+cd server
 npm install
 node index.js
 ```
 
 Si esta todo bien configurado, desde la linea de comandos se deberia poder ver lo siguiente:
-```app running in 8000
-DB is Connected```
+```
+app running in 8000
+DB is Connected
+```
 
 Para correr el cliente, debe ingresar a la carpeta `client` y ejecutar `npm install` y luego `npm start`.
 
