@@ -1,30 +1,26 @@
-import React from 'react';
-import Navbar from './component/Navbar';
-import { Switch, Route } from 'react-router-dom';
-import Home from './component/Home';
-import Login from './component/Login';
-import Register from './component/Register';
-import Profile from './component/Profile';
-import './App.css';
-
-const App = () => {
+import React from 'react'
+import './App.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import Home from './components/Home'
+import File from './components/File'
+import Login from './components/Login'
+import Credits from './components/Credits'
+import {BrowserRouter, Routes, Route } from 'react-router-dom'
+function App() {
   return (
-    <>
-    <Navbar/>
-    <Switch>
-      <Route exact path ="/" component={Home}/>
-      <Route exact path ="/login" component={Login}/>
-      <Route exact path ="/register" component={Register}/>
-      <Route exact path ="/profile" component={Profile}/>
-     
-    </Switch>
-     
-
+    <>     
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/files" element={<File />} />
+          <Route path="/credits" element={<Credits />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }
-
-export default App;
-
-
-
+export default App
