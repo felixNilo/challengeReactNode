@@ -41,6 +41,8 @@ Se crean 5 endpoints:
 - `/login`: `GET` para obtener el estado de logeo del usuario que está realizando la petición.
 - `/data`: `GET` para obtener el archivo `.csv` desde la carpeta `/data` (solo es accesible mientras el usuario se encuentra logeado).
 
+Para las pruebas de los endpoint del servidor, se adjunta el archivo `Challenge.postman_collection.json`. Este archivo es una coleccion de peticiones HTTP para el cliente Postman creada para el proyecto en cuestion.
+
 ### Sesión de usuario
 
 No se configura una duración en específico de la sesión de usuario. Si se configura la creación de una cookie de verificación de autenticación, por lo cual, cuando el navegador se cierra, la cookie desaparece, lo que se traduce que la sesión no podrá ser accesada.
