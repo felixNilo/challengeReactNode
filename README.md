@@ -69,10 +69,12 @@ Para correr el cliente, debe ingresar a la carpeta `client` y ejecutar `npm inst
 Si esta todo bien configurado, se deberia desplegar el navegador automaticamente.
 
 Para desplegar la aplicacion cliente en su modalidad de produccion, debe ejecutar `npm run build`, luego servir la aplicacion mediante el servidor node mediante `npm install -g serve` y `luego serve -s`
-```cd client
+```
+cd client
 npm run build
 npm install -g serve
-serve -s```
+serve -s
+```
 
 
 ### Correr la aplicacion en docker *Work in progress*
