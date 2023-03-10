@@ -1,6 +1,6 @@
 # Proyecto React-Node
 
-![Alt Text](https://i.postimg.cc/fLJFZtfm/Diagrama-sin-t-tulo-drawio.png)
+[![Diagrama](https://i.postimg.cc/fLJFZtfm/Diagrama-sin-t-tulo-drawio.png)](https://postimg.cc/34Q9Fw6x)
 
 El proyecto se divide en 2 carpetas: `client` y `server`.
 
