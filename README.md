@@ -81,7 +81,8 @@ serve -s
 ```
 
 A continuacion se muestra un diagrama de casos de uso del proyecto.
-[![Use-Cases](https://i.postimg.cc/ZYN7ch7b/descarga.jpg)](https://postimg.cc/kDnvJLPz)
+[![UseCases](https://i.postimg.cc/ZYN7ch7b/descarga.jpg)](https://postimg.cc/kDnvJLPz)
+[![descarga.jpg](https://i.postimg.cc/ZYN7ch7b/descarga.jpg)](https://postimg.cc/kDnvJLPz)
 
 
 ### Correr la aplicacion en docker *Work in progress*
