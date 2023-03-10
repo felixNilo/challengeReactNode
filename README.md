@@ -31,7 +31,7 @@ Además, desde el cliente se encuentran configurados los siguientes endpoints:
 
 En `server` se encuentra creado el backend del sistema creado en el framework Express. Se utiliza como gestor de base de datos relacional MySQL. Por motivos de agilidad se crean 2 archivos: `index.js` que contiene la inicialización del servidor, las rutas y middlewares, y `database.js` que contiene la configuración de las credenciales y host de la base de datos.
 
-![Alt Text](https://postimg.cc/WtnS0T7s/2273e4d0)
+[![RDB](https://i.postimg.cc/8P83QCJf/descarga-1.jpg)](https://postimg.cc/WtnS0T7s)
 
 Se crean 5 endpoints:
 
@@ -81,7 +81,7 @@ serve -s
 ```
 
 A continuacion se muestra un diagrama de casos de uso del proyecto.
-![Alt_text](https://postimg.cc/kDnvJLPz/f43f6a63)
+[![Use-Cases](https://i.postimg.cc/ZYN7ch7b/descarga.jpg)](https://postimg.cc/kDnvJLPz)
 
 
 ### Correr la aplicacion en docker *Work in progress*
