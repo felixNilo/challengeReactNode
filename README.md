@@ -1,5 +1,7 @@
 # Proyecto React-Node
 
+![Alt Text](https://postimg.cc/34Q9Fw6x/20cb83d6)
+
 El proyecto se divide en 2 carpetas: `client` y `server`.
 
 ## Cliente (`client`)
@@ -28,6 +30,8 @@ Además, desde el cliente se encuentran configurados los siguientes endpoints:
 ## Servidor (`server`)
 
 En `server` se encuentra creado el backend del sistema creado en el framework Express. Se utiliza como gestor de base de datos relacional MySQL. Por motivos de agilidad se crean 2 archivos: `index.js` que contiene la inicialización del servidor, las rutas y middlewares, y `database.js` que contiene la configuración de las credenciales y host de la base de datos.
+
+![Alt Text](https://postimg.cc/WtnS0T7s/2273e4d0)
 
 Se crean 5 endpoints:
 
@@ -75,6 +79,9 @@ npm run build
 npm install -g serve
 serve -s
 ```
+
+A continuacion se muestra un diagrama de casos de uso del proyecto.
+![Alt_text](https://postimg.cc/kDnvJLPz/f43f6a63)
 
 
 ### Correr la aplicacion en docker *Work in progress*
